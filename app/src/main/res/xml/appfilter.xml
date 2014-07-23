@@ -45,11 +45,9 @@
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.DialtactsActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="contacts" />
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivityForDialpad}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity}" drawable="contacts" />
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.PhoneDialtactsActivity}" drawable="contacts" />
@@ -57,14 +55,14 @@
     <item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.DialerTabActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.huawei.android.dialer/com.huawei.android.dialer.TwelveKeyDialer}" drawable="contacts" />
     <item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.CallLogShortcut}" drawable="contacts" />
-    <item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.DialtactsContactsEntryActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.samsung.android.app.dialertab/com.samsung.android.app.dialertab.DialerTabActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.samsung.dialer/com.samsung.dialer.SplashScreen}" drawable="contacts" />
     <item component="ComponentInfo{com.sec.android.app.dialertab/com.sec.android.app.dialertab.DialerTabActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.DialerEntryActivity}" drawable="contacts" />
+    <item component="ComponentInfo{com.android.contacts/com.android.internal.app.ResolverActivity}" drawable="contacts" />
 
     <!-- Control panel -->
-    <item component="ComponentInfo{com.sec.android.app.controlpanel/com.sec.android.app.controlpanel.JobManagerActivity}" drawable="controlpanel" />
+    <item component="ComponentInfo{com.sec.android.app.controlpanel/com.sec.android.app.controlpanel.activity.JobManagerActivity}" drawable="controlpanel" />
 
     <!-- Download -->
     <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="download" />
@@ -108,8 +106,23 @@
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" />
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="gmail" />
 
+    <!-- Google Play Book -->
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="gbooks" />
+
+    <!-- Google Play Magazines -->
+    <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentStartActivity}" drawable="gmagazines" />
+
+    <!-- Google Play Music -->
+    <item component="ComponentInfo{com.google.android.music/com.google.android.music.activitymanagement.TopLevelActivity}" drawable="gmusic" />
+
+    <!-- Google Play Store -->
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="play" />
+
+    <!-- Google Plus -->
+    <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.HomeActivity}" drawable="gplus" />
+
     <!-- Hangouts -->
-    <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigninInActivity}" drawable="hangouts" />
+    <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="hangouts" />
 
     <!-- Message -->
     <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer}" drawable="message" />
@@ -118,13 +131,23 @@
     <item component="ComponentInfo{com.motorola.blur.messaging/com.motorola.blur.messaging.MessagingActivity}" drawable="message" />
     <item component="ComponentInfo{com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity}" drawable="message" />
 
+    <!-- One Drive -->
+    <item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}" drawable="onedrive" />
+
     <!-- Phone -->
-    <item component="ComponentInfo{com.android.phone/com.android.phone.DialtactsCallLogActivity}" drawable="phone" />
-    <item component="ComponentInfo{com.android.phone/com.android.phone.DialtactsContactsEntryActivity}" drawable="phone" />
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogActivity}" drawable="phone" />
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivityForDialpad}" drawable="phone" />
+    <item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.DialtactsContactsEntryActivity}" drawable="phone" />
+
+    <!-- Settings -->
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings" />
 
     <!-- XBMC -->
     <item component="ComponentInfo{org.xbmc.android.remote/org.xbmc.android.remote.presentation.activity.HomeActivity}" drawable="xbmc" />
 
     <!-- WhatsApp -->
     <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="whatsapp" />
+
+    <!-- YouTube -->
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" />
 </resources>
