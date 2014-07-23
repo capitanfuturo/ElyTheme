@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="latesticons">
+        <item>icon</item>
+    </string-array>
+    <string-array name="systemicons">
+        <item>browser</item>
+        <item>gallery</item>
+        <item>calculator</item>
+        <item>camera</item>
+        <item>controlpanel</item>
+    </string-array>
+    <string-array name="playicons">
+        <item>gbooks</item>
+        <item>gmagazines</item>
+        <item>gmail</item>
+        <item>gmusic</item>
+        <item>gplus</item>
+        <item>hangouts</item>
+    </string-array>
+    <string-array name="gamesicons"></string-array>
+    <string-array name="miscicons">
+        <item>acroread</item>
+        <item>allshare</item>
+        <item>calendar</item>
+        <item>chrome</item>
+        <item>clock</item>
+        <item>contacts</item>
+        <item>download</item>
+        <item>drive</item>
+        <item>dropbox</item>
+        <item>feedly</item>
+        <item>firefox</item><item>folder
+</item>
+        <item>mail</item>
+        <item>message</item>
+        <item>onedrive</item>
+        <item>phone</item><item>pictures
+</item>
+        <item>play</item>
+        <item>settings</item>
+        <item>whatsapp</item>
+        <item>xbmc</item><item>youtube
+</item>
+        <item>misc_appdrawer_icsics</item>
+    </string-array>
+    <string-array name="icon_pack">
+        <item>icon</item>
+        <item>apps_actionlauncherpro</item>
+        <item>apps_novalauncher</item>
+        <item>apps_apexlauncher</item>
+        <item>apps_adwlauncher</item>
+        <item>apps_adwex</item>
+    </string-array>
+</resources>
+
+
+
+
+
+
