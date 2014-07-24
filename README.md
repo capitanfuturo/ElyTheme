@@ -9,7 +9,7 @@ and import them as existing project
 
 Credits
 -------
-- designrifts
-- afollestad 
+- [designrifts](https://github.com/designrifts)
+- [afollestad](https://github.com/afollestad) 
 - All the authors of [flaticon.com](http://www.flaticon.com/authors/)
-- tung91 for the request icon activity (http://forum.xda-developers.com/showthread.php?t=2626588)
+- [tung91](https://github.com/tung91) for the request icon activity
