@@ -19,6 +19,6 @@
     <item drawable="theme_elytheme" />
      
     <category title="System" />
-    <item drawable="browser" />
+    <item drawable="system_browser" />
  
 </resources>

@@ -3,7 +3,6 @@
     <iconback img1="iconback" />
 	<iconmask img1="iconmask" />
     <iconupon img1="iconupon" />
-    <scale factor=".75" />
 
     <!-- Acrobat Reader -->
     <item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="acroread" />
@@ -106,11 +105,24 @@
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" />
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="gmail" />
 
+    <!-- Google Local -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.PlacesActivity}" drawable="glocal"/>
+
+    <!-- Google Maps -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="gmaps"/>
+
+    <!-- Google Navigator -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity}" drawable="gnavigator"/>
+
+    <!-- Google Photo -->
+    <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.ConversationListActivity}" drawable="gphoto"/>
+
     <!-- Google Play Book -->
     <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="gbooks" />
 
     <!-- Google Play Magazines -->
     <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentStartActivity}" drawable="gmagazines" />
+    <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="gmagazines"/>
 
     <!-- Google Play Music -->
     <item component="ComponentInfo{com.google.android.music/com.google.android.music.activitymanagement.TopLevelActivity}" drawable="gmusic" />
@@ -121,8 +133,24 @@
     <!-- Google Plus -->
     <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.HomeActivity}" drawable="gplus" />
 
+    <!-- Google Search -->
+    <item component="ComponentInfo{com.google.android.voicesearch/com.google.android.voicesearch.RecognitionActivity}" drawable="search"/>
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="search"/>
+
+    <!-- Google Settings -->
+    <item component="ComponentInfo{com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsActivity}" drawable="gsettings"/>
+
     <!-- Hangouts -->
     <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="hangouts" />
+
+    <!-- JuiceSSH -->
+    <item component="ComponentInfo{com.sonelli.juicessh/com.sonelli.juicessh.activities.MainActivity}" drawable="juicessh"/>
+
+    <!-- Kies air -->
+    <item component="ComponentInfo{com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity}" drawable="kiesair"/>
+
+    <!-- Memo -->
+    <item component="ComponentInfo{com.sec.android.app.memo/com.sec.android.app.memo.Memo}" drawable="memo"/>
 
     <!-- Message -->
     <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer}" drawable="message" />
@@ -131,16 +159,29 @@
     <item component="ComponentInfo{com.motorola.blur.messaging/com.motorola.blur.messaging.MessagingActivity}" drawable="message" />
     <item component="ComponentInfo{com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity}" drawable="message" />
 
+    <!-- MX Player -->
+    <item component="ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityMediaList}" drawable="videoplayer"/>
+
     <!-- One Drive -->
     <item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}" drawable="onedrive" />
 
     <!-- Phone -->
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogActivity}" drawable="phone" />
+    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivityForDialpad}" drawable="phone" />
     <item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.DialtactsContactsEntryActivity}" drawable="phone" />
 
+    <!-- Radio FM -->
+    <item component="ComponentInfo{com.sec.android.app.fmradio/com.sec.android.app.fmradio.MainActivity}" drawable="fmradio"/>
+
+    <!-- Recorder -->
+    <item component="ComponentInfo{com.sec.android.app.voicerecorder/com.sec.android.app.voicerecorder.VoiceRecorderMainActivity}" drawable="recorder"/>
+
     <!-- Settings -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings" />
+
+    <!-- Video -->
+    <item component="ComponentInfo{com.sec.android.app.videoplayer/com.sec.android.app.videoplayer.activity.VideoList}" drawable="videoplayer"/>
 
     <!-- XBMC -->
     <item component="ComponentInfo{org.xbmc.android.remote/org.xbmc.android.remote.presentation.activity.HomeActivity}" drawable="xbmc" />
@@ -148,6 +189,13 @@
     <!-- WhatsApp -->
     <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="whatsapp" />
 
+    <!-- WIND Servizi -->
+    <item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity}" drawable="wind"/>
+
+    <!-- Yahoo Sports -->
+    <item component="ComponentInfo{com.protrade.sportacular/com.protrade.sportacular.activities.StartupActivity}" drawable="ysport"/>
+
     <!-- YouTube -->
     <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" />
 </resources>
+

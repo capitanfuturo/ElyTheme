@@ -5,16 +5,16 @@
     <string name="contact">Contact Us</string>
     <string name="action_contact">Contact</string>
     <string name="contactheader">Want To See More of Me?</string>
-    <string name="socialheader">Stalker!</string>    
+    <string name="socialheader">Stay social!</string>
     <string name="gplus">Google Plus</string>
     <string name="gplus_extra">Is Whats Up</string>
     <string name="gplus_link">https://plus.google.com/+GiuseppeCaliendo</string>
     <string name="emailheader">Wanna Get More Personal?</string>
     <string name="email">Email</string>
-    <string name="email_extra"></string>
+    <string name="email_extra">no spam please!</string>
     <string name="email_link">mailto:capitanfuturo@email.it</string>
-    <string name="webheader">The net</string>
-    <string name="web">My personal site</string>
-    <string name="web_extra"></string>
+    <string name="webheader">Web resource</string>
+    <string name="web">My blog</string>
+    <string name="web_extra">For italian folks</string>
     <string name="web_link">http://niubbo.blogspot.it/</string>
 </resources>

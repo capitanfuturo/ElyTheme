@@ -6,13 +6,12 @@
     <string name="play">Google Play</string>
     <string name="play_extra">Buy Moar Themes</string> 
     <string name="play_link">http://play.google.com/store/apps/developer?id=DesignRifts</string>
-    <string name="basicsheader">The Basics</string>    
+    <string name="basicsheader">Info</string>
     <string name="icon">Icons</string>
-    <string name="icon_extra">See What is Included</string> 
+    <string name="icon_extra">See what is included</string>
     <string name="request">Want to Request an Icon?</string>
-    <string name="request_extra">This will scan your device for the apps installed and sent us the names</string>
-    <!-- This is for information on the template, I would remove this as well as all association in the FramgmentExtra -->
-    <string name="template_header">For More Information On This Template</string>
+    <string name="request_extra">Send us the names</string>
+    <string name="template_header">Fork me on Github</string>
     <string name="github">Github</string>
     <string name="github_extra">See the code</string>
     <string name="github_link">https://github.com/capitanfuturo/ElyTheme</string>
