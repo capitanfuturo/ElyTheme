@@ -41,7 +41,6 @@
     <!-- Icon Request data -->
     <string name="email_subject">Icon Requests</string>
     <string name="email_text">Will you have my babies oh mighty Jai</string>
-    <string name="request_email_addr">capitanfuturo@email.it</string>
     <string name="send_email">Sending my request and my soul</string>
     <string name="begin_activity_scan">Begin Icon Request Activity</string>
     <string name="scan_note">By pressing this button this application will scan your phone for installed activities (apps) and compile a text file as well as the applications icons and create a zip file to send us, thus allowing us to fulfil your request</string>

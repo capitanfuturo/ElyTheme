@@ -45,7 +45,6 @@ import it.gcaliendo.elytheme.R.string;
 public class FragmentExtras extends Fragment  implements Card.CardMenuListener<Card> {
 	
 	private CardListView list;
-
 	//The below items are the actions attached to the cards, i.e. what the cards will do, if you will not be using a card, you can remove the act
     private void actPlay() {
     	Uri marketuriString = Uri.parse(getString(R.string.play_link)); 
@@ -57,7 +56,6 @@ public class FragmentExtras extends Fragment  implements Card.CardMenuListener<C
     		Toast.makeText(getActivity().getApplicationContext(), "Play Store not found!", Toast.LENGTH_LONG).show();
     	}
     };
-
     //The following act relates to the information to link to the github and forum posts of this template, you are free to remove 
     private void actGithub() {
     	 Uri extras1uriString = Uri.parse(getString(R.string.github_link)); //use this to link to your UCCW skins on Play or Website
@@ -69,7 +67,6 @@ public class FragmentExtras extends Fragment  implements Card.CardMenuListener<C
     		}
 
     };
-
     private void actIcons() {
     	String pkg = getResources().getString(R.string.pkg);
     	Intent iconfrag = new Intent(Intent.ACTION_MAIN);
@@ -82,19 +79,20 @@ public class FragmentExtras extends Fragment  implements Card.CardMenuListener<C
     		icons.printStackTrace();
     	}
     };
-
     private void actRequest() {
     	String pkg = getResources().getString(R.string.pkg);
     	Intent iconrequest = new Intent(Intent.ACTION_MAIN);
-    	iconrequest.setComponent(new ComponentName(pkg,pkg+".IconRequest"));
+    	iconrequest.setComponent(new ComponentName(pkg,pkg+".RequestActivity"));
 
-    	try {        
+    	try {
             startActivity(iconrequest);
     		}
     	catch (RuntimeException icons) {
     		icons.printStackTrace();
     	}
     };
+
+
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -160,7 +158,6 @@ public class FragmentExtras extends Fragment  implements Card.CardMenuListener<C
 				.setThumbnail(getActivity(), R.drawable.apps_iconrequest) // sets a thumbnail image from drawable resources
 				.setPopupMenu(-1, null) // -1 disables the popup menu for this individual card
 				);
-
 		list.setAdapter(cardsAdapter);
 	}
 	
