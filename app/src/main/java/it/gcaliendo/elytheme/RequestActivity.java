@@ -86,7 +86,7 @@ public class RequestActivity extends Activity {
 	private static final int BUFFER = 2048;
 	private static final String SD = Environment.getExternalStorageDirectory().getAbsolutePath();
 
-	private static final String font = "Roboto-Condensed.ttf"; //TODO Set Path to font relative to assets folder
+	private static final String font = "Roboto-Condensed.ttf"; //Set Path to font relative to assets folder
 	private static final String SAVE_LOC = SD + "/.icon_request/files"; //TODO Set own file path.
 	private static final String SAVE_LOC2 = SD + "/.icon_request"; //TODO Change also this one.
 	private static final String appfilter_path = "empty_appfilter.xml"; //TODO Define path to appfilter.xml in assets folder.
@@ -359,26 +359,28 @@ public class RequestActivity extends Activity {
 					break;
 				case XmlPullParser.END_TAG:
 					if(name.equals("item"))
-					{	
-						try	{
-							String tmp_act = myparser.getAttributeValue(null,"component").split("/")[1];
-							String t_activity= tmp_act.substring(0, tmp_act.length()-1);
+                        try {
+                            String tmp_act = myparser.getAttributeValue(null, "component").split("/")[1];
+                            String t_activity = tmp_act.substring(0, tmp_act.length() - 1);
 
-							String tmp_pack = myparser.getAttributeValue(null,"component").split("/")[0];
-							String t_package= tmp_pack.substring(14, tmp_pack.length());
+                            String tmp_pack = myparser.getAttributeValue(null, "component").split("/")[0];
+                            String t_package = tmp_pack.substring(14, tmp_pack.length());
 
-							list_activities.add(t_package + "/" + t_activity);
+                            list_activities.add(t_package + "/" + t_activity);
 
-							if(DEBUG)Log.v(TAG,"Added Styled App: \"" +t_package + "/" + t_activity+"\"");
-						}
-						catch(ArrayIndexOutOfBoundsException e){}
-					}
+                            if (DEBUG)
+                                Log.v(TAG, "Added Styled App: \"" + t_package + "/" + t_activity + "\"");
+                        } catch (ArrayIndexOutOfBoundsException e) {
+                        }
 					break;
 				}
 				activity = myparser.next();
 			}
 		}
-		catch(IOException exIO){handler.sendEmptyMessage(2);return;} //Show toast when there's no appfilter.xml in assets
+		catch(IOException exIO){
+            //TODO handler.sendEmptyMessage(2);
+            return;
+        } //Show toast when there's no appfilter.xml in assets
 		catch(XmlPullParserException exXPPE){return;}
 	}
 

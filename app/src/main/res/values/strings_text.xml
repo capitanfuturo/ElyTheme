@@ -3,6 +3,6 @@
     <!-- Text Tab -->
 	<string name="tab4">About</string>
 	<string name="author"> This application is brought to you by Giuseppe Caliendo</string>
-	<string name="credit"> Credit also goes out to @designrift @flaticon</string>
+	<string name="credit"> Credit also goes out to @designrift @flaticon.com @afollestad @tung91</string>
 	<string name="just_some_bullshit">This project is released under the GPL2 licence.</string>
 </resources>
