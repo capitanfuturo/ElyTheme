@@ -10,6 +10,12 @@
     <!-- AllShare -->
     <item component="ComponentInfo{com.sec.android.app.dlna/com.sec.android.app.dlna.ui.PresetModeActivityTab}" drawable="allshare" />
 
+    <!-- Barcode Scanner -->
+    <item component="ComponentInfo{com.google.zxing.client.android/com.google.zxing.client.android.CaptureActivity}" drawable="barcode"/>
+
+    <!-- Bible -->
+    <item component="ComponentInfo{stundenbuch.komplet/stundenbuch.komplet.Komplet}" drawable="bible"/>
+
     <!-- Browser -->
 	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="browser" />
     <item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="browser" />
@@ -32,6 +38,9 @@
     <item component="ComponentInfo{com.google.android.gallery3d/com.android.camera.CameraLauncher}" drawable="camera" />
     <item component="ComponentInfo{com.google.android.gallery3d/com.android.camera.CameraLauncher}" drawable="camera" />
 
+    <!-- ChatON -->
+    <item component="ComponentInfo{com.sec.chaton/com.sec.chaton.HomeActivity}" drawable="chaton"/>
+
     <!-- Clock -->
     <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.AlarmClock}" drawable="clock" />
     <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock" />
@@ -40,6 +49,7 @@
     <item component="ComponentInfo{com.motorola.blur.alarmclock/com.motorola.blur.alarmclock.AlarmClock}" drawable="clock" />
 
     <!-- Contacts -->
+    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity}" drawable="contacts"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivity}" drawable="contacts" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.DialtactsActivity}" drawable="contacts" />
@@ -78,6 +88,9 @@
     <item component="ComponentInfo{com.htc.android.mail/com.htc.android.mail.MailListTab}" drawable="mail" />
     <item component="ComponentInfo{com.motorola.blur.email/com.motorola.blur.email.mailbox.ViewFolderActivity}" drawable="mail" />
 
+    <!-- Etra Rifiuti -->
+    <item component="ComponentInfo{it.etra.rifiuti/etrarifiuti.andro.vSplash}" drawable="etra"/>
+
     <!-- Feedly -->
     <item component="ComponentInfo{com.devhd.feedly/com.devhd.feedly.Main}" drawable="feedly" />
 
@@ -105,6 +118,9 @@
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" />
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="gmail" />
 
+    <!-- Google Authenticator -->
+    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="gauthenticator"/>
+
     <!-- Google Local -->
     <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.PlacesActivity}" drawable="glocal"/>
 
@@ -121,11 +137,11 @@
     <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="gbooks" />
 
     <!-- Google Play Magazines -->
-    <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentStartActivity}" drawable="gmagazines" />
+    <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="gmagazines"/>
     <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="gmagazines"/>
 
     <!-- Google Play Music -->
-    <item component="ComponentInfo{com.google.android.music/com.google.android.music.activitymanagement.TopLevelActivity}" drawable="gmusic" />
+    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="gmusic"/>
 
     <!-- Google Play Store -->
     <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="play" />
@@ -140,8 +156,14 @@
     <!-- Google Settings -->
     <item component="ComponentInfo{com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsActivity}" drawable="gsettings"/>
 
+    <!-- Guida TV Gratis -->
+    <item component="ComponentInfo{com.jappit.android.guidatvfree/com.jappit.android.guidatvfree.GuidaTV}" drawable="guidatv"/>
+
     <!-- Hangouts -->
     <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="hangouts" />
+
+    <!-- IKEA -->
+    <item component="ComponentInfo{com.ikea.app/com.ikea.app.Activities.SplashScreenActivity}" drawable="ikea"/>
 
     <!-- JuiceSSH -->
     <item component="ComponentInfo{com.sonelli.juicessh/com.sonelli.juicessh.activities.MainActivity}" drawable="juicessh"/>
@@ -151,6 +173,7 @@
 
     <!-- Memo -->
     <item component="ComponentInfo{com.sec.android.app.memo/com.sec.android.app.memo.Memo}" drawable="memo"/>
+    <item component="ComponentInfo{com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.Main}" drawable="memo"/>
 
     <!-- Message -->
     <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer}" drawable="message" />
@@ -165,11 +188,17 @@
     <!-- One Drive -->
     <item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}" drawable="onedrive" />
 
+    <!-- OpenDocument Reader -->
+    <item component="ComponentInfo{at.tomtasche.reader/at.tomtasche.reader.ui.activity.MainActivity}" drawable="openoffice"/>
+
     <!-- Phone -->
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogActivity}" drawable="phone" />
     <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivityForDialpad}" drawable="phone" />
     <item component="ComponentInfo{com.motorola.dialer/com.motorola.dialer.DialtactsContactsEntryActivity}" drawable="phone" />
+
+    <!-- Quickoffice -->
+    <item component="ComponentInfo{com.quickoffice.android/com.qo.android.quickoffice.QuickofficeDispatcher}" drawable="quickoffice"/>
 
     <!-- Radio FM -->
     <item component="ComponentInfo{com.sec.android.app.fmradio/com.sec.android.app.fmradio.MainActivity}" drawable="fmradio"/>
@@ -179,6 +208,9 @@
 
     <!-- Settings -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings" />
+
+    <!-- Tutto il Calcio -->
+    <item component="ComponentInfo{com.jappit.calcio/com.jappit.calcio.SoccerActivity}" drawable="jappit"/>
 
     <!-- Video -->
     <item component="ComponentInfo{com.sec.android.app.videoplayer/com.sec.android.app.videoplayer.activity.VideoList}" drawable="videoplayer"/>
@@ -197,5 +229,6 @@
 
     <!-- YouTube -->
     <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" />
+
 </resources>
 
